@@ -35,7 +35,7 @@ public class PersonService {
 
         person.setUserName(userName);
         person.setName(getFullName(requestObj));
-
+        person.setEmail(requestObj.getPersonEmail());
 
 
 
