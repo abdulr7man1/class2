@@ -13,7 +13,7 @@ import java.util.Set;
 @SpringBootApplication
 public class DemoApplication {
 
-
+    public static List<Person> Person_List = new ArrayList<>();
 
 
 
