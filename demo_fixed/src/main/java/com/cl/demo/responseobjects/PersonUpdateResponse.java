@@ -19,7 +19,7 @@ public class PersonUpdateResponse {
 
     public static PersonUpdateResponse convert(Person person) {
         PersonUpdateResponse response = new PersonUpdateResponse();
-
+        response.setPersonId(person.getId().toString());
 
 
 
