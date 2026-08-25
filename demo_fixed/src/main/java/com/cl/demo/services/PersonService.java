@@ -99,7 +99,7 @@ public class PersonService {
         if (DemoApplication.userNames.add(userNameToUpdate) == true) {
 
             List<String> userNameHistory = currentUserNameObj.getPrevUserNames();
-
+            if (userNameHistory == null) {
 
 
 
