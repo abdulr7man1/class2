@@ -23,7 +23,7 @@ public class PersonUpdateResponse {
         response.setEmail(person.getEmail());
         response.setUserName(person.getUserName().getActiveUserName());
         return response;
-
+    }
 
 
 
