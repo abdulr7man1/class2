@@ -13,6 +13,7 @@ import java.util.*;
 @Service
 public class PersonService {
 
+    public static final String PERSON_USERNAME_OR_EMAIL_ALREADY_TAKEN = "Given username or email is already taken";
 
 
 
