@@ -70,7 +70,7 @@ public class PersonService {
     }
 
     public List<Person> getAllPersons() {
-
+        List<Person> resultList = new ArrayList<>();
 
 
 
