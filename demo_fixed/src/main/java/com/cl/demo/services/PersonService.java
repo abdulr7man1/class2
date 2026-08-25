@@ -98,7 +98,7 @@ public class PersonService {
         UserName userName = new UserName();
         if (DemoApplication.userNames.add(userNameToUpdate) == true) {
 
-
+            List<String> userNameHistory = currentUserNameObj.getPrevUserNames();
 
 
 
