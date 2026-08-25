@@ -18,7 +18,7 @@ import java.util.Map;
 public class PersonController {
 
     @Autowired
-
+    public PersonService personService;
 
 
 
