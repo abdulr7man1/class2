@@ -34,7 +34,7 @@ public class PersonService {
         userName.setActiveUserName(requestObj.getPersonUserName());
 
         person.setUserName(userName);
-
+        person.setName(getFullName(requestObj));
 
 
 
