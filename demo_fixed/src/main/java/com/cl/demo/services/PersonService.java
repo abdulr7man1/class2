@@ -83,7 +83,7 @@ public class PersonService {
         if (!DemoApplication.emails.add(email) || !DemoApplication.userNames.add(userName)) {
             return false;
         }
-
+        return true;
 
 
 
