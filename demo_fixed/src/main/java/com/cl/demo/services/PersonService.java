@@ -56,7 +56,7 @@ public class PersonService {
     }
 
     public Person updatePerson(PersonUpdateRequest updateObj) {
-
+        Person person = getPersonById(updateObj.getUuid());
 
 
 
