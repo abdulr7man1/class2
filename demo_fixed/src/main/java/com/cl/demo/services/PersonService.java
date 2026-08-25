@@ -108,7 +108,7 @@ public class PersonService {
             currentUserNameObj.setActiveUserName(updateRequest.getUserNameToUpdate());
         }
 
-
+        return currentUserNameObj;
 
 
 
