@@ -4,7 +4,7 @@ public enum TaskStatus {
     BACKLOG,
     TODO,
     INPROGRESS,
-
+    TESTING,
 
 
 
