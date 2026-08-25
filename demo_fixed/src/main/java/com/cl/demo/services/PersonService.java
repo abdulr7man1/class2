@@ -22,6 +22,7 @@ public class PersonService {
         Person person = new Person();
 
         if (!verifyUserNameAndEmail(requestObj.getPersonUserName(), requestObj.getPersonEmail())) {
+            response.put("error", PERSON_USERNAME_OR_EMAIL_ALREADY_TAKEN);
 
 
 
