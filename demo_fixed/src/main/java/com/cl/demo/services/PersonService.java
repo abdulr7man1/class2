@@ -104,7 +104,7 @@ public class PersonService {
             }
             userNameHistory.add(currentUserNameObj.getActiveUserName());
 
-
+            currentUserNameObj.setPrevUserNames(userNameHistory);
 
 
 
