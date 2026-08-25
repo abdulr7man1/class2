@@ -65,7 +65,7 @@ public class PersonService {
         person.setUserName(getUserNameByCompare(person.getUserName(), updateObj));
         person.setEmail(HelperUtils.compare(person.getEmail(), updateObj.getEmailToUpdate()));
 
-
+        DemoApplication.Person_List.add(person);
 
 
 
