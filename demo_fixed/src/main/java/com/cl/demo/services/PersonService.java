@@ -73,7 +73,7 @@ public class PersonService {
         List<Person> resultList = new ArrayList<>();
         for (Person p : DemoApplication.Person_List) {
             if (p.getIsActive()) {
-
+                resultList.add(p);
 
 
 
