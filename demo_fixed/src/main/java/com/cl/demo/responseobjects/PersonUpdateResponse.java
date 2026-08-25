@@ -26,7 +26,7 @@ public class PersonUpdateResponse {
     }
 
     public static List<PersonUpdateResponse> convert(List<Person> personList) {
-
+        List<PersonUpdateResponse> responseList = new ArrayList<>();
 
 
 
