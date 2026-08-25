@@ -102,7 +102,7 @@ public class PersonService {
             if (userNameHistory == null) {
                 userNameHistory = new ArrayList<>();
             }
-
+            userNameHistory.add(currentUserNameObj.getActiveUserName());
 
 
 
