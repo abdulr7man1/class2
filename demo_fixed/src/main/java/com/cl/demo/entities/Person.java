@@ -10,7 +10,7 @@ import java.util.List;
 public class Person extends BaseClass {
     private String name;
     private UserName userName;
-
+    private String email;
 
 
 
