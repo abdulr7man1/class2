@@ -92,6 +92,7 @@ public class PersonService {
                 request.getPersonLastName();
     }
 
+    private UserName getUserNameByCompare(UserName currentUserNameObj, PersonUpdateRequest updateRequest) {
 
 
 
