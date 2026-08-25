@@ -17,7 +17,7 @@ public class PersonUpdateResponse {
     String email;
 
 
-
+    public static PersonUpdateResponse convert(Person person) {
 
 
 
