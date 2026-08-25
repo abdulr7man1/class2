@@ -7,6 +7,7 @@ import java.util.List;
 
 @Setter
 @Getter
+public class Person extends BaseClass {
 
 
 
