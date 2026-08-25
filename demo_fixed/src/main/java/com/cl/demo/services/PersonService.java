@@ -111,7 +111,7 @@ public class PersonService {
         return currentUserNameObj;
     }
 
-
+    public Boolean deleteById(String uuid) {
 
 
 
