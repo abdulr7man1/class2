@@ -113,7 +113,7 @@ public class PersonService {
 
     public Boolean deleteById(String uuid) {
         Person person = getPersonById(uuid);
-
+        if (person == null || person.getId() == null || person.getIsActive() != true) {
 
 
 
