@@ -20,7 +20,7 @@ public class PersonCreateResponse {
         PersonCreateResponse response = new PersonCreateResponse();
         response.setPersonId(person.getId().toString());
         response.setFullName(person.getName());
-
+        response.setUserName(person.getUserName().getActiveUserName());
 
 
 
