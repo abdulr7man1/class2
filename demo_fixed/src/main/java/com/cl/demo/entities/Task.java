@@ -12,7 +12,7 @@ public class Task extends BaseClass {
     private String description;
     private String taskNumber;
     private Date dueDate;
-
+    private Date startDate;
 
 
 
