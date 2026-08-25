@@ -21,7 +21,7 @@ public class PersonUpdateResponse {
         PersonUpdateResponse response = new PersonUpdateResponse();
         response.setPersonId(person.getId().toString());
         response.setEmail(person.getEmail());
-
+        response.setUserName(person.getUserName().getActiveUserName());
 
 
 
