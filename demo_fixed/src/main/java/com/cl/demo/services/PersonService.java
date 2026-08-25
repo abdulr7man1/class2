@@ -49,7 +49,7 @@ public class PersonService {
     public Person getPersonById(String uuid) {
         for (Person p : DemoApplication.Person_List) {
             if (p.getId().toString().equals(uuid) && p.getIsActive() != false) {
-
+                return p;
 
 
 
