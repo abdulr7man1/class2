@@ -5,6 +5,6 @@ public enum TaskStatus {
     TODO,
     INPROGRESS,
     TESTING,
-
+    REVIEW,
 
 
