@@ -34,9 +34,9 @@ public class PersonController {
     @GetMapping("getAll")
     public List<PersonCreateResponse> getAllPerson() {
         return PersonCreateResponse.convert(personService.getAllPersons());
+    }
 
-
-
+    @PutMapping("update")
 
 
 
