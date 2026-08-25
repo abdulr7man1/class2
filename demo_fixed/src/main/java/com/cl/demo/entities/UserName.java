@@ -11,4 +11,4 @@ import java.util.List;
 public class UserName extends BaseClass {
     private String activeUserName;
     private List<String> prevUserNames;
-
+}
