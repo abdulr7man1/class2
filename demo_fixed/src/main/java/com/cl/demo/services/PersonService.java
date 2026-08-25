@@ -96,7 +96,7 @@ public class PersonService {
         String userNameToUpdate = HelperUtils.compare(currentUserNameObj.getActiveUserName(),
                 updateRequest.getUserNameToUpdate());
         UserName userName = new UserName();
-
+        if (DemoApplication.userNames.add(userNameToUpdate) == true) {
 
 
 
