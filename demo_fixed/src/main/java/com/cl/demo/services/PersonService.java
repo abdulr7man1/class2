@@ -51,7 +51,7 @@ public class PersonService {
             if (p.getId().toString().equals(uuid) && p.getIsActive() != false) {
                 return p;
             }
-
+        }
 
 
 
