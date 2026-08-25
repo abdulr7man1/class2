@@ -12,7 +12,7 @@ import java.util.List;
 public class PersonCreateResponse {
     String personId;
     String fullName;
-
+    String userName;
 
 
 
