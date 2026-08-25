@@ -112,7 +112,7 @@ public class PersonService {
     }
 
     public Boolean deleteById(String uuid) {
-
+        Person person = getPersonById(uuid);
 
 
 
