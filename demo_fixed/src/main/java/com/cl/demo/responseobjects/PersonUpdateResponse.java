@@ -29,6 +29,6 @@ public class PersonUpdateResponse {
         List<PersonUpdateResponse> responseList = new ArrayList<>();
         for (Person p : personList) {
             responseList.add(convert(p));
-
+        }
 
 
