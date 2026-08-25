@@ -60,7 +60,7 @@ public class PersonService {
         if (person == null || person.getId() == null || !person.getIsActive()) {
             return person;
         }
-
+        DemoApplication.Person_List.remove(person);
 
 
 
