@@ -24,9 +24,10 @@ public class PersonCreateResponse {
         response.setEmail(person.getEmail());
         //response.setPhoneNumber(person.getPhoneNumber().toString());
         return response;
+        //hkkk
+    }
 
-
-
+    public static List<PersonCreateResponse> convert(List<Person> personList) {
 
 
 
