@@ -30,5 +30,5 @@ public class PersonUpdateResponse {
         for (Person p : personList) {
             responseList.add(convert(p));
         }
-
+        return responseList;
 
