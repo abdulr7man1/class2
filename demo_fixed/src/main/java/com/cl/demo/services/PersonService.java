@@ -33,7 +33,7 @@ public class PersonService {
         UserName userName = new UserName();
         userName.setActiveUserName(requestObj.getPersonUserName());
 
-
+        person.setUserName(userName);
 
 
 
