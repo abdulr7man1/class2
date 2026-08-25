@@ -9,4 +9,4 @@ public class PhoneNumber extends BaseClass {
     private String countryCode;
     private Long phoneNumber;
 
-
+}
