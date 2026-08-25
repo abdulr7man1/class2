@@ -118,7 +118,7 @@ public class PersonService {
         } else {
             DemoApplication.Person_List.remove(person);
             person.setIsActive(false);
-
+            DemoApplication.Person_List.add(person);
 
 
 
