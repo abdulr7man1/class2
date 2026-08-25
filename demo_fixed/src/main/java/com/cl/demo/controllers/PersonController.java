@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("person")
-
+public class PersonController {
 
 
 
