@@ -74,7 +74,7 @@ public class PersonService {
         for (Person p : DemoApplication.Person_List) {
             if (p.getIsActive()) {
                 resultList.add(p);
-
+            }
 
 
 
