@@ -8,7 +8,7 @@ import java.util.Date;
 @Setter
 @Getter
 public class Task extends BaseClass {
-
+    private String title;
 
 
 
