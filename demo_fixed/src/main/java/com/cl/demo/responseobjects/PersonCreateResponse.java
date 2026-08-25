@@ -13,7 +13,7 @@ public class PersonCreateResponse {
     String personId;
     String fullName;
     String userName;
-
+    String email;
 
 
 
