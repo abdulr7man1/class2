@@ -14,4 +14,4 @@ public class BaseClass {
     private Boolean isActive;
     private Date createdDate;
     private Date updatedDate;
-
+}
