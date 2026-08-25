@@ -14,7 +14,7 @@ public class PersonUpdateResponse {
 
     String personId;
     String userName;
-
+    String email;
 
 
 
