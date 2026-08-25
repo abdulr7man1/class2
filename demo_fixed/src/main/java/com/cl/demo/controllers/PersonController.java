@@ -26,7 +26,7 @@ public class PersonController {
     }
 
     @GetMapping("getById")
-
+    public PersonCreateResponse getPersonById(@RequestParam String uuid) {
 
 
 
