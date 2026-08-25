@@ -30,7 +30,7 @@ public class PersonService {
         person.setIsActive(Boolean.TRUE);
         person.setCreatedDate(new Date());
 
-
+        UserName userName = new UserName();
 
 
 
