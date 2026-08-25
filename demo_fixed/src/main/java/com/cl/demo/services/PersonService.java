@@ -40,7 +40,7 @@ public class PersonService {
         //TODO: Add Phone Number Logic in PhoneNumber Service
         Boolean result = DemoApplication.Person_List.add(person);
 
-
+        if (result) {
 
 
 
