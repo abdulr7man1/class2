@@ -7,6 +7,6 @@ import lombok.Setter;
 @Setter
 public class PersonUpdateRequest {
     String uuid;
-
+    String userNameToUpdate;
 
 
