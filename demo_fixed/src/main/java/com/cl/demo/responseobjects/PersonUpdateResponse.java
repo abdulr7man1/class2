@@ -25,6 +25,7 @@ public class PersonUpdateResponse {
         return response;
     }
 
+    public static List<PersonUpdateResponse> convert(List<Person> personList) {
 
 
 
