@@ -44,6 +44,6 @@ public class PersonController {
     @DeleteMapping("deleteById")
     public Boolean deletePersonById(@RequestParam String id) {
         return personService.deleteById(id);
+    }
 
-
-
+}
