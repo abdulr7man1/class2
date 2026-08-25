@@ -18,7 +18,7 @@ public class DemoApplication {
     public static Set<String> userNames = new HashSet<>();
     public static Set<String> emails = new HashSet<>();
 
-
+    public static void main(String[] args) {
 
 
 
