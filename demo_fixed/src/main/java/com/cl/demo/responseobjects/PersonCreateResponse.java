@@ -16,7 +16,7 @@ public class PersonCreateResponse {
     String email;
     String phoneNumber;
 
-
+    public static PersonCreateResponse convert(Person person) {
 
 
 
