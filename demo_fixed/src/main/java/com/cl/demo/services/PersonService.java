@@ -80,7 +80,7 @@ public class PersonService {
     }
 
     public Boolean verifyUserNameAndEmail(String userName, String email) {
-
+        if (!DemoApplication.emails.add(email) || !DemoApplication.userNames.add(userName)) {
 
 
 
