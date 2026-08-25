@@ -1,7 +1,7 @@
 package com.cl.demo.responseobjects;
 
 import com.cl.demo.entities.Person;
-
+import lombok.Getter;
 
 
 
