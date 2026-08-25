@@ -116,7 +116,7 @@ public class PersonService {
         if (person == null || person.getId() == null || person.getIsActive() != true) {
             return false;
         } else {
-
+            DemoApplication.Person_List.remove(person);
 
 
 
