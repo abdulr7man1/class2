@@ -89,7 +89,7 @@ public class PersonService {
     public String getFullName(PersonCreateRequest request) {
         return request.getPersonFirstName() + " " +
                 request.getPersonMiddleName() + " " +
-
+                request.getPersonLastName();
 
 
 
