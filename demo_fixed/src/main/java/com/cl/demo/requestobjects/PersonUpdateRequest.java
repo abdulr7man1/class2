@@ -9,4 +9,4 @@ public class PersonUpdateRequest {
     String uuid;
     String userNameToUpdate;
     String emailToUpdate;
-
+}
