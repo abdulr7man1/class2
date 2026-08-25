@@ -75,7 +75,7 @@ public class PersonService {
             if (p.getIsActive()) {
                 resultList.add(p);
             }
-
+        }
 
 
 
