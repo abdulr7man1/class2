@@ -31,7 +31,7 @@ public class PersonService {
         person.setCreatedDate(new Date());
 
         UserName userName = new UserName();
-
+        userName.setActiveUserName(requestObj.getPersonUserName());
 
 
 
