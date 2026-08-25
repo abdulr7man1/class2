@@ -14,7 +14,7 @@ import java.util.*;
 public class PersonService {
 
     public static final String PERSON_USERNAME_OR_EMAIL_ALREADY_TAKEN = "Given username or email is already taken";
-
+    public static final String PERSON_SAVED = "Person saved";
 
 
 
