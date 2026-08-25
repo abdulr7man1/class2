@@ -94,7 +94,7 @@ public class PersonService {
 
     private UserName getUserNameByCompare(UserName currentUserNameObj, PersonUpdateRequest updateRequest) {
         String userNameToUpdate = HelperUtils.compare(currentUserNameObj.getActiveUserName(),
-
+                updateRequest.getUserNameToUpdate());
 
 
 
