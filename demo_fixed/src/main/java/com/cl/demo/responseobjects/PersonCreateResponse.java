@@ -17,7 +17,7 @@ public class PersonCreateResponse {
     String phoneNumber;
 
     public static PersonCreateResponse convert(Person person) {
-
+        PersonCreateResponse response = new PersonCreateResponse();
 
 
 
