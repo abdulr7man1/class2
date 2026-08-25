@@ -17,4 +17,4 @@ public class Task extends BaseClass {
     private TaskStatus taskStatus;
     private Boolean isAssigned;
 
-
+}
