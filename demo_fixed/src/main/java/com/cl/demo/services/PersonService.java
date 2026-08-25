@@ -21,7 +21,7 @@ public class PersonService {
         Map<String, String> response = new HashMap<>();
         Person person = new Person();
 
-
+        if (!verifyUserNameAndEmail(requestObj.getPersonUserName(), requestObj.getPersonEmail())) {
 
 
 
