@@ -47,7 +47,7 @@ public class PersonService {
     }
 
     public Person getPersonById(String uuid) {
-
+        for (Person p : DemoApplication.Person_List) {
 
 
 
