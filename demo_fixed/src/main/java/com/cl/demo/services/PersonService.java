@@ -100,7 +100,7 @@ public class PersonService {
 
             List<String> userNameHistory = currentUserNameObj.getPrevUserNames();
             if (userNameHistory == null) {
-
+                userNameHistory = new ArrayList<>();
 
 
 
