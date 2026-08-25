@@ -28,7 +28,7 @@ public class PersonService {
 
         person.setId(UUID.randomUUID());
         person.setIsActive(Boolean.TRUE);
-
+        person.setCreatedDate(new Date());
 
 
 
