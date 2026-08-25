@@ -39,9 +39,9 @@ public class PersonController {
     @PutMapping("update")
     public PersonUpdateResponse updatePerson(@RequestBody PersonUpdateRequest updateObj) {
         return PersonUpdateResponse.convert(personService.updatePerson(updateObj));
+    }
 
-
-
+    @DeleteMapping("deleteById")
 
 
 
