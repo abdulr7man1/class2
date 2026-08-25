@@ -27,7 +27,7 @@ public class PersonService {
         }
 
         person.setId(UUID.randomUUID());
-
+        person.setIsActive(Boolean.TRUE);
 
 
 
