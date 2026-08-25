@@ -37,7 +37,7 @@ public class PersonController {
     }
 
     @PutMapping("update")
-
+    public PersonUpdateResponse updatePerson(@RequestBody PersonUpdateRequest updateObj) {
 
 
 
