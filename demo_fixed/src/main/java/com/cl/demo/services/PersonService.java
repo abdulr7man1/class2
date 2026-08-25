@@ -59,7 +59,7 @@ public class PersonService {
         Person person = getPersonById(updateObj.getUuid());
         if (person == null || person.getId() == null || !person.getIsActive()) {
             return person;
-
+        }
 
 
 
