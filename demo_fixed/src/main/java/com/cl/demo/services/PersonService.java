@@ -63,7 +63,7 @@ public class PersonService {
         DemoApplication.Person_List.remove(person);
 
         person.setUserName(getUserNameByCompare(person.getUserName(), updateObj));
-
+        person.setEmail(HelperUtils.compare(person.getEmail(), updateObj.getEmailToUpdate()));
 
 
 
