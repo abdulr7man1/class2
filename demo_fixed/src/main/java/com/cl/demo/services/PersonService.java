@@ -115,7 +115,7 @@ public class PersonService {
         Person person = getPersonById(uuid);
         if (person == null || person.getId() == null || person.getIsActive() != true) {
             return false;
-
+        } else {
 
 
 
