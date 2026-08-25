@@ -69,7 +69,7 @@ public class PersonService {
         return person;
     }
 
-
+    public List<Person> getAllPersons() {
 
 
 
