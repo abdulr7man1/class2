@@ -38,7 +38,7 @@ public class PersonService {
         person.setEmail(requestObj.getPersonEmail());
 
         //TODO: Add Phone Number Logic in PhoneNumber Service
-
+        Boolean result = DemoApplication.Person_List.add(person);
 
 
 
